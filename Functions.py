@@ -24,3 +24,19 @@ def weather_info(weather_data): #Function of displaying the data
         print(f'Condition: {condition}')
     else:
         print('We encountered an error when accessing your weather')
+
+def get_timezone(town_name): #Function of getting a certain places timezone
+    timezoneurl = f'{api_url}/timezone.json?key={api_key}&q={town_name}'
+    response = requests.get(timezoneurl)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return None
+
+def Timezone_info(Timezone_data):
+    if Timezone_data:
+        location = Timezone_data["location"]["name"]
+        timezone = Timezone_data["location"]["timezone"]
+        print(f'The timezone in {location} is: {timezone}')
+    else: 
+        print("We encountered an error when accessing your location's information")
