@@ -1,5 +1,8 @@
+from tkinter import simpledialog
+
 import requests
 from api_key import *
+import tkinter as tk
 api_url = 'http://api.weatherapi.com/v1' #Api url
 
 if api_key == '':
@@ -71,6 +74,14 @@ def main_menu():
         quit()
     else:
         print('Invalid choice, try again.')
+
+def handle_click(action_type):
+    city = simpledialog.askstring("Input" f"Which cities {action_type} would you like to see?")
+    if city:
+        print(f"Fetching {action_type} for {city}")
+        gatherAPI_Information(city, action_type)
+    else:
+        return ""
 
 
     
