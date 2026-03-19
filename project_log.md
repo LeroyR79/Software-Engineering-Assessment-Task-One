@@ -28,7 +28,8 @@
 # Non-functional Requirements
 ## Performance
 **How quickly should we try to get the system to perform tasks, what efficiency is required to maintain user engagement? How can we ensure our program remains efficient?**
--
+- The data should load before 5 seconds have passed since the last input from the user.
+- If the system doesn't respond within 5 seconds, the code will time out and error.
 
 ## Usability/Accessibility
 **How might you make your application more accessible? What could you do with the User Interface to improve usability?**
@@ -38,5 +39,5 @@
 **What could perhaps not crash the whole system, but could be an issue and needs to be addressed? Data integrity? Duplicate data? API retrieval crash?**
 - The system running into an issue where two places have the same name or very similar names. The system may output the wrong weather due to that. (e.g. When the user inputs "Bateau Bay, NSW" the system outputs "Roche-A-Bateau, Sud, Haiti".)
 - The system occasionally encounters an API retrieval crash, where the code will crash due to the API having problems. This will usually occur with an unexplained error.
-
+- Occasionally there is an error that occurs that is produced by the translation of string to the integer type, therefore the code will then occasionally produce an error.
 
