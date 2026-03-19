@@ -52,3 +52,6 @@
   - Step 3: The user will then receive that output and input their chosen city.
   - Step 4: The system will then interact with the API to receive the needed information, then relay it to the user.
   - Step 5: The code will then loop and restart to step 1.
+  **Postconditions**
+- After the process is complete, the code will then loop until either the user chooses to quit or the system times out.
+
