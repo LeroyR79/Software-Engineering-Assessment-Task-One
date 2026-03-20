@@ -41,3 +41,17 @@
 - The system occasionally encounters an API retrieval crash, where the code will crash due to the API having problems. This will usually occur with an unexplained error.
 - Occasionally there is an error that occurs that is produced by the translation of string to the integer type, therefore the code will then occasionally produce an error.
 
+## Use Cases
+**Interactions** 
+- User interacts with the system, and inputs their chosen choices on the "Main Menu" and for the city they've chosen.
+**Preconditions** 
+- The user must be able to run python, and they must be connected to the internet for the code to function properly.
+**Main Flow**
+  - Step 1: The user interacts with the system and inputs their chosen data (what they would like information on).
+  - Step 2: The system will then process that input and output with a question of what place would they like information on.
+  - Step 3: The user will then receive that output and input their chosen city.
+  - Step 4: The system will then interact with the API to receive the needed information, then relay it to the user.
+  - Step 5: The code will then loop and restart to step 1.
+  **Postconditions**
+- After the process is complete, the code will then loop until either the user chooses to quit or the system times out.
+
