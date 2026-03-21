@@ -59,30 +59,37 @@ def main_menu():
             Choice = int(input("(1) View Current weather in city \n(2) View current time in a city \n(3) View daily forecast of a city \n(4) Quit \n(5) Help\n"))
         except ValueError:
             print("You have entered an invalid input. Try again.")
-    
-    if Choice == 1:
-        city_name = input("Which city's weather would you like? ")
-        weather_data = gatherAPI_Information('current', city_name)
-        weather_info(weather_data)
-    elif Choice == 2:
-        city_name = input("Which city's time would you like? ")
-        Timezone_data = gatherAPI_Information('timezone', city_name)
-        Timezone_info(Timezone_data)
-    elif Choice == 3:
-        city_name = input("Which city's forecast would you like? ")
-        Forecast_data = gatherAPI_Information('forecast', city_name)
-        Forecast_info(Forecast_data)
-    elif Choice == 4:
-        print("Exiting... \n")
-        quit()
-    elif Choice == 5:
-        print("What do you need help with?")
-        help_choice = int(input("(1) What information can I access with this Weather Program. \n(2) How many cities can get API access? \n(3) Quit \n"))
-        if help_choice == 1:
-            print("You can access: \n- City's current temperature and current conditions, \n- A city's current time, \n- The max temperature and min temperature for the current day.")
             time.sleep(3)
-    else:
-        print('Invalid choice, try again.')
+            continue
+    
+        if Choice == 1:
+            city_name = input("Which city's weather would you like? ")
+            weather_data = gatherAPI_Information('current', city_name)
+            weather_info(weather_data)
+        elif Choice == 2:
+            city_name = input("Which city's time would you like? ")
+            Timezone_data = gatherAPI_Information('timezone', city_name)
+            Timezone_info(Timezone_data)
+        elif Choice == 3:
+            city_name = input("Which city's forecast would you like? ")
+            Forecast_data = gatherAPI_Information('forecast', city_name)
+            Forecast_info(Forecast_data)
+        elif Choice == 4:
+            print("Exiting... \n")
+            quit()
+        elif Choice == 5:
+            print("What do you need help with?")
+            help_choice = int(input("(1) What information can I access with this Weather Program. \n(2) How many cities can get API access? \n(3) Quit \n"))
+            if help_choice == 1:
+                print("You can access: \n- City's current temperature and current conditions, \n- A city's current time, \n- The max temperature and min temperature for the current day.")
+                time.sleep(3)
+            elif help_choice == 2:
+                print("- You can access the weather information of any city in the world, as long as it exists and is spelled correctly.")
+                time.sleep(3)
+            elif help_choice == 3:
+                quit()
+        else:
+            print('Invalid choice, try again.')
 
 
     
