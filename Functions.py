@@ -10,12 +10,16 @@ if api_key == '':
 def gatherAPI_Information(endpoint, city_name): #Function of getting the information of the city
     complete_url = f'{api_url}/{endpoint}.json?key={api_key}&q={city_name}'
     response = requests.get(complete_url)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        return None
+    try:
+        if response.status_code == 200:
+            return response.json()
+        else:
+            print(f"We had trouble receiving the weather for {city_name}. Error code: {response.status_code}")
+    except requests.exceptions.ConnectTimeout as e:
+        print(f"Connection to the API timed out: {e}")
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred while fetching API data for {city_name}: {e}")
 
-    
 def weather_info(weather_data): #Function of displaying the data
     if weather_data:
         location = weather_data["location"]["name"]
