@@ -35,3 +35,6 @@
 
 23rd of March
 - Update project_log.md
+
+**My GANTT Chart**
+<img width="1275" height="374" alt="GANTT Chart" src="https://github.com/user-attachments/assets/f6677bf5-c9f6-4225-a327-f5f6fda94f5d" />
