@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Functional requirements
 ## User Requirements
 **What does the user need to be able to do?**
