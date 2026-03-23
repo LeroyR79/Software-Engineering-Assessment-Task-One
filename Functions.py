@@ -28,7 +28,7 @@ def weather_info(weather_data): #Function of displaying the data
         print(f'Condition: {condition}')
         
     else:
-        print("We encountered an error when accessing your weather. Your city may not exist or there's been a bug with the code, try again.")
+        print("We encountered an error when accessing your weather. Your city may not exist or there's been a bug with the code, try again.\n")
 
 
 
@@ -63,15 +63,15 @@ def main_menu():
             continue
     
         if Choice == 1:
-            city_name = input("Which city's weather would you like? ")
+            city_name = input("Which city's weather would you like to view? ")
             weather_data = gatherAPI_Information('current', city_name)
             weather_info(weather_data)
         elif Choice == 2:
-            city_name = input("Which city's time would you like? ")
+            city_name = input("Which city's time would you like to view? ")
             Timezone_data = gatherAPI_Information('timezone', city_name)
             Timezone_info(Timezone_data)
         elif Choice == 3:
-            city_name = input("Which city's forecast would you like? ")
+            city_name = input("Which city's forecast would you like to view? ")
             Forecast_data = gatherAPI_Information('forecast', city_name)
             Forecast_info(Forecast_data)
         elif Choice == 4:
