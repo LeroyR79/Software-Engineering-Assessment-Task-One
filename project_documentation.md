@@ -58,6 +58,4 @@
 **Postconditions**
 - After the process is complete, the code will then loop until either the user chooses to quit or the system times out.
 
-- Update project_log.md
->>>>>>> 5d1cc03705c33695f293f751fa41eaf604f72bb7
 
