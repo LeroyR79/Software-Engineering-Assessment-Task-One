@@ -5,7 +5,7 @@ import time
 
 print("Welcome to the Weather Program.")
 
-while True:
+while True:   # Loops the main_menu function until the user decides to quit the program 
     
     main_menu()
 

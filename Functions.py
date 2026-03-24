@@ -52,7 +52,8 @@ def Display_Forecast(Forecast_data):     #Function of displaying the forecast in
         chanceofrain = forecast["daily_chance_of_rain"]
         max_temp = forecast["maxtemp_c"]
         min_temp = forecast["mintemp_c"]
-        print(f'The forecast for Today in {location}, {region}, has a max temperature of {max_temp}°C and a minimum of {min_temp}°C and a {chanceofrain}% chance of rain.')
+        Avg_temp = forecast["avgtemp_c"]
+        print(f'The forecast for Today in {location}, {region}, has an average temperature of {Avg_temp}°C with a max temperature of {max_temp}°C and a low of {min_temp}°C with a {chanceofrain}% chance of rain.')
     else: 
         print("We encountered an error when accessing your location's information")
 
