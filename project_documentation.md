@@ -17,7 +17,6 @@
 
 ## User Interaction
 **How will users interact with the system (e.g. command-line, GUI?) and what information will it need to provide to help users navigate?**
-- Users will interact with the system with a GUI (In this case, Tkinter).
 - The system will provide clear options of what they need to do.
 - The system will provide a "help" button to help users navigate if needed.
 
@@ -59,3 +58,11 @@
 - After the process is complete, the code will then loop until either the user chooses to quit or the system times out.
 
 
+## Data Dictionaries
+**Forecast Data Dictionary:**
+<img width="1357" height="355" alt="Data Dictionary for API Forecast Usage" src="https://github.com/user-attachments/assets/1b38c2fb-f11d-4609-85ac-cfe2e54563e9" />
+This is the information that my code utilises to output all of the outputs for the Forecast choice path.
+
+**Time Data Dictionary:**
+<img width="1357" height="355" alt="Data Dictionary for API Time Usage" src="https://github.com/user-attachments/assets/0e706e06-4f00-43d4-afeb-7f9d868562ac" />
+This is the information that my code utilises to output the Time.
