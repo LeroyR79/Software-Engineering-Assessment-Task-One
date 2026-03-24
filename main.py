@@ -9,6 +9,3 @@ while True:   # Loops the main_menu function until the user decides to quit the 
     
     main_menu()
 
-
-
-
