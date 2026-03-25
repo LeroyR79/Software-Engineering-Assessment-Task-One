@@ -1,5 +1,4 @@
 # Software-Engineering-Assessment-Task-One
-(What the code is and what it does)
 ## What is this code and what is it used for?
 This code refers to  a weather API to bring to show the user their weather. The code is used to section out each part of the information that the API is outputting into the seperate sections of information that the user might like to view, aswell as allowing the user to input any city that they would like to see information on (Which the API is unable to do on its own). This code can be used for a wide range of activities such as: Being able to know the current time for a certain place which can be useful if you're communicating with someone across the world or country, etc.
 ## Necessary installations
