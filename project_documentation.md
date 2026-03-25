@@ -66,3 +66,10 @@ This is the information that my code utilises to output all of the outputs for t
 **Time Data Dictionary:**
 <img width="1357" height="355" alt="Data Dictionary for API Time Usage" src="https://github.com/user-attachments/assets/0e706e06-4f00-43d4-afeb-7f9d868562ac" />
 This is the information that my code utilises to output the Time.
+
+**Weather Data Dictionary**
+<img width="957" height="146" alt="Data Dictionary for API Weather Usage" src="https://github.com/user-attachments/assets/5b908ffc-be6a-4b7a-a794-1d75a3ded23f" />
+
+This is the information that my code utilises to output both of the outputs for the Weather choice path.
+
+
