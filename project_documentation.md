@@ -72,3 +72,34 @@ This is the information that my code utilises to output the Time.
 This is the information that my code utilises to output both of the outputs for the Weather choice path.
 
 
+
+## Pseudocode
+### Function Pseudocodes:
+**GatherAPI_Information()**
+
+<img width="530" height="530" alt="GatheringAPI_information Pseudocode" src="https://github.com/user-attachments/assets/8ad8d711-1869-4249-ac4f-b7145e180f29" />
+
+**Display_Weather()**
+
+<img width="530" height="530" alt="Display_Weather Pseudocode" src="https://github.com/user-attachments/assets/78cf3940-a745-4828-837f-ac8c9596e10a" />
+
+**Display_Time()**
+
+<img width="530" height="530" alt="Display_Time Pseudocode" src="https://github.com/user-attachments/assets/7c48643d-294a-4275-8219-afe8560c4f43" />
+
+**Display_Forecast()**
+
+<img width="530" height="530" alt="Display_Forecast Pseudocode" src="https://github.com/user-attachments/assets/e2d1a0bb-e544-4ba0-a3af-4534b4008c0b" />
+
+**Help_Option()**
+
+<img width="530" height="530" alt="Help_Option Pseudocode" src="https://github.com/user-attachments/assets/79b67c2d-3e6b-429d-a55e-3dc794804dcf" />
+
+### Main Process/Main_Menu function
+**Main_Menu()**
+
+<img width="600" height="600" alt="Main Process Function" src="https://github.com/user-attachments/assets/246cb346-cb97-40ff-8e65-f4c2e8b51f58" />
+
+
+
+
