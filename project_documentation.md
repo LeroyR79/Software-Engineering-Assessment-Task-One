@@ -57,7 +57,7 @@
 **Postconditions**
 - After the process is complete, the code will then loop until either the user chooses to quit or the system times out.
 
-
+# Design
 ## Data Dictionaries
 **Forecast Data Dictionary:**
 <img width="1357" height="355" alt="Data Dictionary for API Forecast Usage" src="https://github.com/user-attachments/assets/1b38c2fb-f11d-4609-85ac-cfe2e54563e9" />
@@ -72,24 +72,25 @@ This is the information that my code utilises to output the Time.
 This is the information that my code utilises to output both of the outputs for the Weather choice path.
 
 
-
 ## Pseudocode
 ### Function Pseudocodes:
 **GatherAPI_Information()**
 
-<img width="530" height="530" alt="GatheringAPI_information Pseudocode" src="https://github.com/user-attachments/assets/8ad8d711-1869-4249-ac4f-b7145e180f29" />
+<img width="530" height="530" alt="GatherAPI_information Pseudocode" src="https://github.com/user-attachments/assets/8ad8d711-1869-4249-ac4f-b7145e180f29" />
 
 **Display_Weather()**
 
-<img width="530" height="530" alt="Display_Weather Pseudocode" src="https://github.com/user-attachments/assets/78cf3940-a745-4828-837f-ac8c9596e10a" />
+<img width="530" height="530" alt="Display_Weather Pseudocode" src="https://github.com/user-attachments/assets/f4b78429-23a8-469f-a89f-6b7fdf9ba95a" />
 
 **Display_Time()**
 
-<img width="530" height="530" alt="Display_Time Pseudocode" src="https://github.com/user-attachments/assets/7c48643d-294a-4275-8219-afe8560c4f43" />
+<img width="530" height="530" alt="Display_Time Pseudocode" src="https://github.com/user-attachments/assets/ed6b2fd8-b6b7-4532-90a1-fe9f0a8c5239" />
+
 
 **Display_Forecast()**
 
-<img width="530" height="530" alt="Display_Forecast Pseudocode" src="https://github.com/user-attachments/assets/e2d1a0bb-e544-4ba0-a3af-4534b4008c0b" />
+<img width="530" height="530" alt="Display_Forecast Pseudocode" src="https://github.com/user-attachments/assets/0f864244-498b-42b0-aa2a-50b3bd892c3d" />
+
 
 **Help_Option()**
 
@@ -101,6 +102,38 @@ This is the information that my code utilises to output both of the outputs for 
 
 <img width="600" height="600" alt="Main Process Function" src="https://github.com/user-attachments/assets/246cb346-cb97-40ff-8e65-f4c2e8b51f58" />
 
+## Flowharts
+### Function Flowcharts:
+**GatherAPI_Information():**
+
+<img width="428" height="724" alt="GatherAPI_Information Flowchart" src="https://github.com/user-attachments/assets/9f48589a-f158-405c-b77e-28266c0f3899" />
 
 
+**Display_Weather()**
 
+<img width="428" height="724" alt="Display_Weather Flowchart" src="https://github.com/user-attachments/assets/382dcc98-d1be-4aec-95b8-9cb09906934c" />
+
+
+**Display_Time()**
+
+<img width="428" height="724" alt="Display_Time Flowchart" src="https://github.com/user-attachments/assets/708998a6-bff2-4522-aa9d-4ca4e383fe5d" />
+
+
+**Display_Forecast()**
+
+<img width="428" height="724" alt="Display_Forecast Flowchart" src="https://github.com/user-attachments/assets/02bba4c9-3d88-40b8-ae0f-f39ad24feaae" />
+
+
+**HelpOption()**
+
+<img width="428" height="724" alt="HelpOption Flowchart" src="https://github.com/user-attachments/assets/36231c74-54cb-4f5e-bccb-cfd1f705439b" />
+
+
+### Main Process/Main_Menu function
+**Main_Menu()**
+
+<img width="500" height="750" alt="Main Process Flowchart" src="https://github.com/user-attachments/assets/bf2845e6-85a6-4f38-9236-19b1539c8041" />
+
+## Structure Chart
+
+<img width="830" height="625" alt="Structure Chart" src="https://github.com/user-attachments/assets/d6f71e76-b23e-4314-831f-33509758b5f0" />
