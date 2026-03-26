@@ -93,7 +93,8 @@ This is the information that my code utilises to output both of the outputs for 
 
 **Help_Option()**
 
-<img width="530" height="530" alt="Help_Option Pseudocode" src="https://github.com/user-attachments/assets/79b67c2d-3e6b-429d-a55e-3dc794804dcf" />
+<img width="530" height="530" alt="HelpOption Pseudocode" src="https://github.com/user-attachments/assets/2d44c167-9aff-4244-81b2-18438bb3e23e" />
+
 
 ### Main Process/Main_Menu function
 **Main_Menu()**
